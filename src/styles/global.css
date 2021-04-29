@@ -1,0 +1,164 @@
+@import "./typography.css";
+
+:root {
+  --background-color: hsl(30, 27%, 78%);
+  --line-color: hsl(35, 16%, 67%);
+  /* --background-color:#d8dcdf; */
+  --font-color: #333;
+}
+
+body {
+  background-color: var(--background-color);
+  /* background: linear-gradient(
+    35deg,
+    hsl(35, 46%, 57%) 0%,
+    hsl(32, 36%, 67%) 30%,
+    hsl(30, 27%, 78%) 100%
+  ); */
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #333;
+}
+h2 {
+  font-family: "optima", georgia, serif;
+  font-size: 3em;
+  line-height: 1.2em;
+  color: #333;
+}
+h3 {
+  font-family: "optima", georgia, serif;
+  font-size: 10vw;
+  color: #333;
+}
+h4 {
+  font-family: "optima", georgia, serif;
+  font-size: 2em;
+  line-height: 1.2em;
+  color: #333;
+}
+h5 {
+  font-family: "optima", georgia, serif;
+  font-size: 1.6em;
+  text-transform: capitalize;
+  letter-spacing: 0.8px;
+  color: #333;
+}
+p {
+  font-family: "optima", georgia, serif;
+  font-size: 1.2em;
+  letter-spacing: 0.5px;
+  line-height: 1.3em;
+  color: #333;
+}
+em {
+  font-family: "optima-Italic", georgia, serif;
+  color: #333;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+ul {
+  margin: 20px 0;
+  margin-right: 80px;
+}
+li {
+  margin-bottom: 8px;
+}
+filter {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 140px;
+  padding-right: 20px;
+  margin-left: -40px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: -1px;
+  z-index: 100;
+  background-color: var(--background-color);
+  height: 60px;
+  border-bottom: 1px solid var(--line-color);
+}
+
+filter h1 {
+  margin-left: 16px;
+  font-size: 0.7em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+main,
+header {
+  margin: 0 140px;
+}
+
+footer {
+  margin: 120px 140px;
+}
+
+header > nav,
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+header > nav {
+  margin: 130px 0 100px 0;
+}
+
+/* Class Styles */
+
+.masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-top: 20px;
+  margin-left: -40px; /* gutter size offset */
+  margin-right: 20px;
+  width: auto;
+}
+.masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.masonry-grid_column > div {
+  /* change div to reference your elements you put in <Masonry> */
+  margin-bottom: 60px;
+}
+
+.project_description {
+  /* margin-top: 5px; */
+  padding: 25px 10px 20px;
+  /* background-color: #555; */
+}
+.project_description h5 {
+  margin-bottom: 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  /* color: var(--background-color); */
+}
+.project_description p {
+  font-family: Helvetica, sans-serif;
+  font-size: 1em;
+  color: #555;
+}
+
+.visible {
+}
+
+.about {
+  width: 50%;
+  margin: 140px 0;
+}
+.about h4 {
+  margin-bottom: 40px;
+}
