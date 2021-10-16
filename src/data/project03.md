@@ -4,7 +4,7 @@ date: "2015-05-01"
 title: "Podcast 00101111"
 description: "00101111"
 link: "https://www.mixcloud.com/LarkCrail/0010-1111/"
-type: "audio"
+type: "graphic"
 techno: []
 image:
   feature: ../images/00101111.jpg

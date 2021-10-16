@@ -35,14 +35,6 @@ const footer = () => {
           </li>
           <li>
             <p>
-              DAW :{" "}
-              <a href="https://www.ableton.com/" target="_blank">
-                Ableton Live
-              </a>
-            </p>
-          </li>
-          <li>
-            <p>
               Draw :{" "}
               <a
                 href="https://www.adobe.com/products/indesign.html"

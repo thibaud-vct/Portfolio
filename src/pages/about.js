@@ -12,8 +12,8 @@ const about = props => {
       </h3>
       <div className="about">
         <h4>
-          Thibaud Vincent is a multidisciplinary creative developer full stack,
-          graphic designer and sound artist based in Paris.
+          Thibaud Vincent is a multidisciplinary creative developer full stack
+          and graphic designer based in Paris.
         </h4>
         <h4>
           After having worked part of his career in the field of IT, culture and

@@ -30,8 +30,8 @@ const IndexPage = props => {
       <SEO title="Home" />
       <h2>
         Thibaud Vincent is a multidisciplinary creative working as a{" "}
-        <em>javascript developer</em>, <em>graphic designer</em> and{" "}
-        <em>sound artist</em> based in Paris.
+        <em>javascript developer</em> and <em>graphic designer</em> based in
+        Paris.
       </h2>
       <filter>
         <h1 onClick={() => handleProjectsFilter("")}>All</h1>
