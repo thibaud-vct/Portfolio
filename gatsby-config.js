@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Thibaud Vincent - multidisciplinary creative and dev`,
+    title: `Thibaud Vincent`,
     description: `Thibaud Vincent is a multidisciplinary creative working as a javascript developer, graphic designer and sound artist based in Paris.`,
     author: `Thibaud Vincent`,
     siteUrl: "https://www.larkcrail.com/",
