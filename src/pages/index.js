@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Projects from "../components/projects"
 
-const IndexPage = props => {
+export default function IndexPage(props) {
   const { data } = props
   const allProjects = data.allMarkdownRemark.edges
 
@@ -27,7 +27,7 @@ const IndexPage = props => {
   const projects = hasFilterResults ? filteredData : allProjects
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title={"Welcome"} />
       <h2>
         Thibaud Vincent is a multidisciplinary creative working as a{" "}
         <em>javascript developer</em> and <em>graphic designer</em> based in
@@ -43,8 +43,6 @@ const IndexPage = props => {
     </Layout>
   )
 }
-
-export default IndexPage
 
 export const pageQuery = graphql`
   query {

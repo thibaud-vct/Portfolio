@@ -5,11 +5,14 @@ const Header = () => (
   <header>
     <nav>
       <h1>
-        <Link to="/">Thibaud</Link>
+        <span />
+        <Link to="/">About</Link>
       </h1>
       <h1>
-        <Link to="/about">About</Link>
+        <span />
+        <Link to="/about">Thibaud</Link>
       </h1>
+      <h1 />
     </nav>
   </header>
 )

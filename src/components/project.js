@@ -2,7 +2,7 @@ import React, { useState } from "react"
 
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
-const project = ({ data }) => {
+const Project = ({ data }) => {
   const [visible, setVisible] = useState()
   const handleDescriptionVisibility = event =>
     event ? setVisible("visible") : setVisible()
@@ -34,4 +34,4 @@ const project = ({ data }) => {
     </div>
   )
 }
-export default project
+export default Project

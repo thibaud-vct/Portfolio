@@ -3,7 +3,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const about = props => {
+const About = props => {
   return (
     <Layout>
       <SEO title="About" />
@@ -30,4 +30,4 @@ const about = props => {
     </Layout>
   )
 }
-export default about
+export default About
